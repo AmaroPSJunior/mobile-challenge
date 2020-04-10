@@ -52,7 +52,7 @@ describe("Likes", () => {
     apiMock
       .onPost(`repositories/${repositoryId}/like`)
       .reply(200, {
-        id: repositoryId,
+        //id: repositoryId,
         title: "Desafio React Native",
         url: "https://github.com/josepholiveira",
         techs: ["React Native", "Node.js"],
